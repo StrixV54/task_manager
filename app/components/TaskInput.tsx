@@ -48,7 +48,7 @@ const TaskInput = () => {
           aria-label="Task input"
         />
         <Button onClick={handleSubmit} type="submit">
-          <PlusCircle className="h-4 w-4 mr-2" />
+          <PlusCircle className="h-4 w-4" />
           Add
         </Button>
       </div>

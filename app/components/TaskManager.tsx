@@ -29,7 +29,7 @@ const TaskManager = () => {
       </Card>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        <p>Task Manager App • Built by Shrikant</p>
+        <p>Built by Shrikant • 2025</p>
       </footer>
     </motion.div>
   )

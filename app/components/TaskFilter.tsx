@@ -39,12 +39,12 @@ const TaskFilter = () => {
   const pendingCount = tasks.filter(task => !task.completed).length
 
   return (
-    <div className="flex items-center justify-between mt-6 mb-4">
+    <div className="flex sm:flex-row flex-col sm:items-center sm:gap-0 gap-3 justify-between mt-6 mb-4">
       <p className="text-sm text-muted-foreground">
         {tasks.length} total tasks • {completedCount} completed • {pendingCount} pending
       </p>
 
-      <div className="flex space-x-2 overflow-x-auto">
+      <div className="flex justify-start space-x-2 overflow-x-auto">
         <FilterButton
           label="All"
           active={filterType === 'all'}
